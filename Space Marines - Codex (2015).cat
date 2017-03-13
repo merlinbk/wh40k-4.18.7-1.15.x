@@ -24307,6 +24307,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
     <link id="be3f-5df5-b220-396d" targetId="f772-b8da-af6f-bd10" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
       <modifiers/>
     </link>
+    <link id="687b-f91d-6ce1-8455" targetId="3586-d487-034f-46ae" linkType="entry" categoryId="c888f08a-6cea-4a01-8126-d374a9231554">
+      <modifiers/>
+    </link>
   </links>
   <sharedEntries>
     <entry id="77c5-17ea-0066-2f71" name="&apos;10th Company Task Force *" points="0.0" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
