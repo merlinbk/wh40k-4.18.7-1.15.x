@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ab0-ceb9-0a9f-f0b6" revision="102" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Space Marines: Codex (2015)" books="" authorName="Earl Bishop (Kohato)" authorContact="iam@earlb3.com" authorUrl="https://github.com/BSData/wh40k/issues" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ab0-ceb9-0a9f-f0b6" revision="103" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Space Marines: Codex (2015)" books="" authorName="Earl Bishop (Kohato)" authorContact="iam@earlb3.com" authorUrl="https://github.com/BSData/wh40k/issues" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="320d-148f-008f-f2a4" name="&quot;1st Company Veterans" points="0.0" categoryId="8dbf948c-125b-4886-b21e-3ccabc1e1188" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="40k Apocalypse">
       <entries/>
@@ -23388,6 +23388,14 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="d1c8-5464-3dd0-8dfa" name="Roboute Gulliman" points="350.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gathering Storm Book Three" page="128">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
   </entries>
   <rules/>
