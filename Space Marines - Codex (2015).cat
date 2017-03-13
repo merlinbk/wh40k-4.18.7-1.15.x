@@ -46921,7 +46921,12 @@ Whirling Flame: In the Fight sub-phase, rather than making attacks normally, Gui
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8c89-1ffd-e31f-2420" name="Primarch of the XIII Legion" hidden="false" book="Gathering Storm Book Three" page="128">
           <description>You can choose to enact the Devastator, Assault and Tactical Doctrines once each per game (in addition to any you can already use). When one of these Combat Doctrines is enacted. all Ultramarines models in your army are affected.</description>
