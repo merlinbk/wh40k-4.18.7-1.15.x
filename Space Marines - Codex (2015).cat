@@ -23389,14 +23389,6 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </link>
       </links>
     </entry>
-    <entry id="d1c8-5464-3dd0-8dfa" name="Roboute Gulliman" points="350.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gathering Storm Book Three" page="128">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
   </entries>
   <rules/>
   <links>
@@ -46865,6 +46857,129 @@ Nominate any point over which the Stormraven moved that turn and deploy the squa
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="3586-d487-034f-46ae" name="Roboute Guilliman" points="350.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true" book="Gathering Storm Book Three" page="128">
+      <entries>
+        <entry id="df26-b5fa-a7cf-5ee6" name="The Emperor&apos;s Sword &amp; Hand of Dominion" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gathering Storm Book Three" page="128">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f8a5-1e02-72c5-e194" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="The Emperor&apos;s Sword (Details)" hidden="false" book="Gathering Storm Book Three" page="128">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Touch of the Emperor: Any attacks with this weapon with a To Hit roll of 6 are   resolved at Strength D.
+
+Whirling Flame: In the Fight sub-phase, rather than making attacks normally, Guilliman can make a number of attacks with this weapon against each enemy unit engaged in his combat equal to the number of models from that unit withiin 1&quot; of him."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="818d-02a6-b495-ea37" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="The Emperor&apos;s Sword (Melee)" hidden="false" book="Gathering Storm Book Three" page="128">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="10"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Armourbane, Concussion, Soul Blaze, Touch of the Emperor, Whirling Flame"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="4a79-642f-ea6c-d724" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Hand of Dominion (Details)" hidden="false" book="Gathering Storm Book Three" page="128">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Hand of Dominion can also be used as a ranged weapon. It may be used as both a melee weapon and a ranged weapon in the same turn."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="2686-e88d-a5f2-24e5" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hand of Dominion (Ranged)" hidden="false" book="Gathering Storm Book Three" page="128">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assualt 3, Rending"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2b21-ae92-f14d-900d" name="Armour of Fate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gathering Storm Book Three" page="128">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="261e-284c-c24a-4625" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Armour of Fate" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Armour of Fate confers a 3+ invuln save. In addition, Guilliman is slain, place a marker at the spot at which he was slain. At the beginning of your next turn, roll a dice. On a 4 or more Guilliman is restored by his armour - place him as close as possible to the marker, more than 1&quot; from any units, with D3 wounds remaining. Otherwise Guilliman is slain. If the marker is on the battlefield at the end of the game, Guilliman is considered to be slain."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="8c89-1ffd-e31f-2420" name="Primarch of the XIII Legion" hidden="false" book="Gathering Storm Book Three" page="128">
+          <description>You can choose to enact the Devastator, Assault and Tactical Doctrines once each per game (in addition to any you can already use). When one of these Combat Doctrines is enacted. all Ultramarines models in your army are affected.</description>
+          <modifiers/>
+        </rule>
+        <rule id="1bfc-b1a0-aac7-021f" name="Lord Commander of the Imperium" hidden="false" book="Gathering Storm Book Three" page="128">
+          <description>Friendly units from the Armies of the Imperium re-roll failed Morale checks and Fear and Pinning tests while Guilliman is on the battlefield.</description>
+          <modifiers/>
+        </rule>
+        <rule id="80f3-af86-164b-27e4" name="Unyielding Will" hidden="false" book="Gathering Storm Book three" page="128">
+          <description>Roboute Guilliman&apos;s Leadership is not subject to negative modifiers of any kind and he may re-roll failed Deny the Witch tests.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3ebd-a598-86dd-bdb7" name="Absolute Mastery" hidden="false" book="Gathering Storm Book Three" page="128">
+          <description>He has all of the Command Traits from Warhammer 40k Rules</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="34d7-d353-8e59-0ff8" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Roboute Guilliman" hidden="false" book="Gathering Storm Book Three" page="128">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Monstrous Creature (Character)"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="9"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="6"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="6"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="6"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="6"/>
+            <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="6"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="6"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="2+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5a32-ecf3-5004-f08a" targetId="c1323f79-ae72-f422-7fcf-caf1074d6421" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6d1b-e97f-5522-e8ae" targetId="8da33d9d-92cb-eabf-200f-05daeddfa514" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="260d-71d9-2968-a784" targetId="15f12b40-90ae-a6cf-a89c-637f09456817" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="66c6-6cd2-f16b-4b4d" targetId="ed6babeb-20ff-23f4-58b5-ed95c34239e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="15c8-269f-642b-066a" targetId="450b435f-ded3-d146-d9b4-9a91344e3018" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d66a-a17c-43d7-aa0f" targetId="352bf2ba-8ad2-8f05-1b22-f15474eb7b7c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1416-42c7-fe9f-b40b" targetId="731e-c54a-874a-6328" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ec2f-37de-9a12-65a7" targetId="af2c-23aa-3d95-3bf6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
